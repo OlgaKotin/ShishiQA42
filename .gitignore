@@ -8,6 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+/src/main/resources/properties/data.properties
 *.iws
 *.iml
 *.ipr
@@ -20,6 +21,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -36,3 +38,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/src/main/resources/
+/src/main/resources/properties/
