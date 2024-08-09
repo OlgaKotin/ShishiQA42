@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2192d756-cdb8-448a-b417-e59b01b3a6cc" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AboutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PhotoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/VideoPage.java" afterDir="false" />
+    <list default="true" id="2192d756-cdb8-448a-b417-e59b01b3a6cc" name="Changes" comment="add pages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CreateUserPageRu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePageRu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPageRu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests_ui/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ContactsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EventsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PhotoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/VideoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ShishiTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +33,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2kMxByU2l8KkRY8aJbUxVCe25UO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,12 +55,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginTests.startPositiveTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/QA42/ShishiQA42/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/QA42/PhoneBookQA42",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/QA42/ShishiQA42/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="LoginTests.startPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ShishiQA42" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests_ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests_ui" />
+      <option name="MAIN_CLASS_NAME" value="tests_ui.LoginTests" />
+      <option name="METHOD_NAME" value="startPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests.startPositiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,12 +113,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723110238233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add base page">
+      <option name="closed" value="true" />
+      <created>1723116813859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723116813859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add top menu pages">
+      <option name="closed" value="true" />
+      <created>1723123294581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723123294581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add base page" />
+    <MESSAGE value="add top menu pages" />
+    <MESSAGE value="add pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
