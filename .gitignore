@@ -8,7 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-!**/src/main/resources/properties/data.properties
+C:\Users\User\IdeaProjects\QA42\ShishiQA42\src\main\resources
 *.iws
 *.iml
 *.ipr
@@ -40,3 +40,6 @@ build/
 .DS_Store
 /src/main/resources/
 /src/main/resources/properties/
+/src/main/resources/properties/
+/src/main/resources/properties/
+/src/main/resources/
